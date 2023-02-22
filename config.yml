@@ -1,0 +1,3 @@
+blast_results_file: "practice/test_data/blastn_WisNatreferecore_FD-GPCY.fasta_2_0.96_AOB_DB.m8"
+blast_results_directory: "practice/test_data"
+project_name: "adina_msu"
