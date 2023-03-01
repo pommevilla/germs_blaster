@@ -41,7 +41,7 @@ If there weren't any problems with the upload, the new data should be available 
 For this backend helper:
 
 - [ ] Submit fasta file for remote BLAST 
-- [ ] Upload BLAST results file 
+- [x] Upload BLAST results file 
 - [ ] Allow any column headers
 
 For the dashboard:
@@ -55,5 +55,7 @@ For the dashboard:
 ### To drop all files in the blast_results collection using MongoDB Compass
 
 1. Connect to the database using MongoDB Compass
-2. In mongosh, type `use blast_results` > `db.all_blast_results` to set  `all_blast_results` as the working collection
+2. In mongosh, to set  `all_blast_results` as the working collection, type:
+   * `use blast_results`
+   * `db.all_blast_results` 
 3. Enter `db.dropDatabase()` to remove all of the entries in the `all_blast_results` database.
